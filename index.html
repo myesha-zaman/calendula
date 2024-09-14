@@ -7,7 +7,12 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1> Calendula </h1>
+  <header>
+    <h1>
+      <img src="calendula_logo.png" alt="Logo" class="logo" />
+      Calendula
+    </h1>
+  </header>
   <div class="container">
     <h2>Upload Your File</h2>
     <form id="uploadForm" enctype="multipart/form-data">
@@ -15,7 +20,7 @@
         Choose File
       </label>
       <input id="file-upload" type="file" name="file" />
-      <p id="file-name">No file chosen</p>
+      <p id="file-name">No File Chosen</p>
       <button type="submit">Upload</button>
     </form>
     <div id="upload-status"></div>
