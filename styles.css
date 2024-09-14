@@ -1,5 +1,6 @@
 /* General body styling */
 body {
+    background-color: #eef13e;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -29,23 +30,27 @@ body {
   
   /* Style for the container */
   .container {
+    background-color: #e3a62b;
     text-align: center;
     width: 80%;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
   /* Style for file upload label */
   .custom-file-upload {
+    color: #000000;
     display: inline-block;
     padding: 6px 12px;
     cursor: pointer;
-    background-color: #f8f8f8;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    background-color: #ad8112;
+  }
+
+  .custom-file-upload:hover {
+    background-color: #8d690f;
   }
   
   /* Additional styling for form elements */
@@ -69,15 +74,15 @@ body {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #ad8112;
+    color: #000000;
     border: none;
     border-radius: 4px;
     cursor: pointer;
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #8d690f;
   }
   
   #upload-status {
