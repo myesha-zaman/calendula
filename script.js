@@ -1,4 +1,3 @@
-// script.js
 document.getElementById('file-upload').addEventListener('change', function() {
     const fileName = document.getElementById('file-upload').files[0].name;
     document.getElementById('file-name').textContent = fileName;
