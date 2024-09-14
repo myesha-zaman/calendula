@@ -1,6 +1,6 @@
 /* General body styling */
 body {
-  font-family: 'Inter', sans-serif; /* Use Inter font */
+  font-family: 'Georgia', sans-serif; /* Use Inter font */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,7 +15,11 @@ body {
   /* Style for the header */
   header {
     text-align: center;
-    margin-bottom: 50px; /* Space between title and container */
+    margin-bottom: 20px; /* Space between title and container */
+    margin: 20;
+    padding: 20px;
+    size: 30px;
+    color: rgb(6, 54, 6);
   }
   
   /* Style for the h1 title */
@@ -24,38 +28,45 @@ body {
     align-items: center;
     justify-content: center;
     margin: 20; /* Remove default margin */
+    size: 10px;
   }
   
-  /* Style for the logo */
+  /* Style for the logo */  
   .logo {
-    width: 50px; /* Adjust size as needed */
+    width: 40px; /* Adjust size as needed */
     height: auto; /* Maintain aspect ratio */
     margin-right: 10px; /* Space between logo and title */
   }
   
   /* Style for the container */
   .container {
-    background-color: #e3a62b;
+    background-color: rgb(142, 232, 142);
     text-align: center;
     width: 80%;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #000000;
+    /* border: 1px solid #000000; */
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
   /* Style for file upload label */
   .custom-file-upload {
-    color: #000000;
     display: inline-block;
-    padding: 6px 12px;
     cursor: pointer;
-    background-color: #ad8112;
+    justify-content: center; /* Ensures the text and logo are centered inside the button */
+    margin: 5px auto; /* Center the button horizontally */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(40, 109, 40);
+    color: whitesmoke;
+    border: none;
+    border-radius: 4px;
   }
 
   .custom-file-upload:hover {
-    background-color: #8d690f;
+    background-color: rgb(158, 221, 158);
+    color:black;
   }
   
   /* Additional styling for form elements */
@@ -79,15 +90,16 @@ body {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #ad8112;
-    color: #000000;
+    background-color: rgb(40, 109, 40);
+    color: whitesmoke;
     border: none;
     border-radius: 4px;
     cursor: pointer;
   }
   
   button:hover {
-    background-color: #8d690f;
+    background-color: rgb(158, 221, 158);
+    color:black;
   }
   
   #upload-status {
@@ -104,8 +116,8 @@ body {
     margin: 20px auto; /* Center the button horizontally */
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #ad8112;
-    color: #000000;
+    background-color: rgb(40, 109, 40);
+    color: whitesmoke;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -118,7 +130,12 @@ body {
   }
 
   .google-btn:hover {
-    background-color: #8d690f;
+    background-color: rgb(158, 221, 158);
+    color:black;
   }
 
   
+/* 5d8b00 */
+/* e8f3db */
+
+/* rgb(142, 232, 142) */
